@@ -52,5 +52,5 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-          firebase_token: ${{ secrets.FIREBASE_TOKEN}}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
